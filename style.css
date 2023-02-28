@@ -1,86 +1,96 @@
-/* html {
-   background-color: #00539F;
-  } */
+ html {
+   background-color:rgb(74, 165, 255);;
+  } 
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
-header{
-   display: flex; 
-   background-color: rgb(74, 165, 255);
-   transition: all 3.3s;
-   align-items: center;
-       
+
+header {
+    display: flex;
+    background-color: rgb(74, 165, 255);
+    transition: all 3.3s;
+    align-items: center;
+
 }
+
 header:hover {
     background-color: royalblue;
 }
+
 .part1 {
-    
-    width: 25%;
-    height: 50%;    
+    height: 50%;
     padding: 8px;
     position: relative;
 }
-img{    
-    border-radius: 100px;     
+
+img {
+    border-radius: 100px;
 }
-.part2{
+
+.part2 {
     display: block;
-    width: 75%;
-    padding: 1.5em 0 0 3em ;
+    padding: 1.5em 0 0 3em;
     position: relative;
 }
 
-h1{    
+h1 {
     text-align: center;
     font-size: 40px;
-    text-decoration-line: underline; 
+    text-decoration-line: underline;
     padding: 10px;
 }
-h2{      
+
+h2 {
     text-align: center;
     font-size: 35px;
-    text-decoration-line: underline; 
+    text-decoration-line: underline;
     padding: 5px;
 }
-main{
+
+main {
     display: flex;
     align-items: center;
 }
-.datosPersonales{
-    
+
+.datosPersonales {
+
     background-color: aquamarine;
     padding-left: 10em;
-    
+
 }
 
 strong {
     font-weight: bold;
-  }
-.part3{
+}
+
+.part3 {
     max-width: 290px;
     height: 100vh;
-    border: solid darkcyan 5px;
+    border: solid black 5px;
     padding: 7px;
 }
-h3{
+
+h3 {
     text-align: center;
     font-weight: bold;
     font-size: 1.7em;
     text-decoration: underline;
     padding: 8px;
-}  
+}
+
 p {
     padding: 10px;
     line-height: 1.7;
 }
-.part4{
+
+.part4 {
     max-width: auto;
     padding: 7px;
     height: 100vh;
 
 }
+
 h4 {
     text-align: center;
     font-weight: bold;
@@ -88,45 +98,31 @@ h4 {
     text-decoration: underline;
     padding: 8px;
 }
-li{
+
+li {
     line-height: 1.5;
     text-align: justify;
 }
-   
-
-
-.productos li{
-    display: inline-block;
+footer {
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-}
-
-footer{
-    text-align: center;
-    background:url(imagen/bg.jpg);
+    background: url(imagen/bg.jpg);
     padding: 40px;
-      
+
 }
 
-@media screen and (max-width:480px){
-    h1{
-        text-align: center;
+@media screen and (max-width:480px) {
+
+    header , main {
+        display: contents;
+        background-color: blue;
     }
-    nav{
-        position: static;
-    }
-    .caja,.principal,.mapa-contenido,.contenido-lista,.video{
+    .part1 , .part2 {
+        display: contents;
         width: auto;
     }
-    .lista-referenciales,.gatito{
-        width: 100%;
+    .part3{
+        height: auto;
     }
-}    
+          
+    
+}
